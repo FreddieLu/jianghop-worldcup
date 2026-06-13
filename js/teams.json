@@ -1,0 +1,786 @@
+{
+  "Mexico": {
+    "ranking": 13,
+    "coach": "迪迪埃·德尚",
+    "keyPlayers": [
+      "埃尔南德斯",
+      "菲尔蒙",
+      "瓜尔达多"
+    ],
+    "marketValue": 2.1,
+    "recentForm": "已赛1场，2:0战胜南非，开局完美",
+    "strengths": [
+      "中场硬度足",
+      "速度快",
+      "主场优势"
+    ],
+    "injuries": []
+  },
+  "South Africa": {
+    "ranking": 78,
+    "coach": "雨果·布鲁马",
+    "keyPlayers": [
+      "达特",
+      "莱通查",
+      "诺托"
+    ],
+    "marketValue": 0.35,
+    "recentForm": "已赛1场，0:2负于墨西哥，开局不利",
+    "strengths": [
+      "防线团结",
+      "中场拼搏精神"
+    ],
+    "injuries": []
+  },
+  "South Korea": {
+    "ranking": 19,
+    "coach": "保罗·本托",
+    "keyPlayers": [
+      "孙兴慜",
+      "李祥民",
+      "具滋哲"
+    ],
+    "marketValue": 1.8,
+    "recentForm": "已赛1场，2:1战胜捷克，开局理想",
+    "strengths": [
+      "速度快",
+      "中场拼搏"
+    ],
+    "injuries": []
+  },
+  "Czech Republic": {
+    "ranking": 26,
+    "coach": "伊万·哈什克",
+    "keyPlayers": [
+      "帕特里克·希克",
+      "施罗德",
+      "克劳斯"
+    ],
+    "marketValue": 0.85,
+    "recentForm": "已赛1场，1:2负于韩国，开局不理想",
+    "strengths": [
+      "中场组织能力强",
+      "防线职业精神"
+    ],
+    "injuries": []
+  },
+  "Canada": {
+    "ranking": 41,
+    "coach": "杰西·马什",
+    "keyPlayers": [
+      "戴维斯",
+      "赫博",
+      "迪卡尔"
+    ],
+    "marketValue": 0.78,
+    "recentForm": "已赛1场，1:1平波黑，开局平稳",
+    "strengths": [
+      "边锋速度快",
+      "中场团结"
+    ],
+    "injuries": [
+      "戴维斯（腿伤，状态待定）"
+    ]
+  },
+  "Bosnia and Herzegovina": {
+    "ranking": 51,
+    "coach": "帕特里克·维拉蒙特",
+    "keyPlayers": [
+      "迪齐奥盖",
+      "皮亚尼奇",
+      "卓基奇"
+    ],
+    "marketValue": 0.62,
+    "recentForm": "已赛1场，1:1平加拿大，初战持平",
+    "strengths": [
+      "中场硬度足",
+      "拼搏精神强"
+    ],
+    "injuries": []
+  },
+  "Qatar": {
+    "ranking": 50,
+    "coach": "费利克斯·桑切斯",
+    "keyPlayers": [
+      "阿卜杜勒肖尔",
+      "阿尔穆罕纳迪",
+      "扎里扬"
+    ],
+    "marketValue": 0.58,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线紧密",
+      "中场硬度足"
+    ],
+    "injuries": []
+  },
+  "Switzerland": {
+    "ranking": 16,
+    "coach": "米卡埃尔·巴拉克",
+    "keyPlayers": [
+      "肖基",
+      "姆里奇",
+      "森迪"
+    ],
+    "marketValue": 1.5,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线硬朗",
+      "中场拼搏精神"
+    ],
+    "injuries": []
+  },
+  "Brazil": {
+    "ranking": 1,
+    "coach": "卡洛斯·安塞洛蒂",
+    "keyPlayers": [
+      "内马尔",
+      "维尼修斯",
+      "帕克"
+    ],
+    "marketValue": 13.2,
+    "recentForm": "待赛",
+    "strengths": [
+      "进攻犀利",
+      "中场控制",
+      "防线稳健"
+    ],
+    "injuries": [
+      "内马尔（腰伤，状态不确定）"
+    ]
+  },
+  "Morocco": {
+    "ranking": 11,
+    "coach": "瓦利德·雷格拉吉",
+    "keyPlayers": [
+      "塞蒂恩",
+      "哈基米",
+      "塔蒂"
+    ],
+    "marketValue": 1.2,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线铁血",
+      "中场拼搏"
+    ],
+    "injuries": []
+  },
+  "Haiti": {
+    "ranking": 88,
+    "coach": "米卢蒂诺维奇",
+    "keyPlayers": [
+      "施蒂夫",
+      "斯坦",
+      "德尔威"
+    ],
+    "marketValue": 0.15,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线意识强",
+      "中场拼搏"
+    ],
+    "injuries": []
+  },
+  "Scotland": {
+    "ranking": 37,
+    "coach": "史蒂夫·克拉克",
+    "keyPlayers": [
+      "麦克格雷戈",
+      "蒂尔尼",
+      "约翰斯通"
+    ],
+    "marketValue": 0.65,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线意识强",
+      "中场硬度足"
+    ],
+    "injuries": []
+  },
+  "United States": {
+    "ranking": 24,
+    "coach": "格雷格·伯哈尔蒂",
+    "keyPlayers": [
+      "普利西奇",
+      "瑞蒙德",
+      "约翰斯"
+    ],
+    "marketValue": 2.5,
+    "recentForm": "已赛1场，4:1大胜巴拉圭，开局闪耀",
+    "strengths": [
+      "边锋速度快",
+      "中场年轻有朝气"
+    ],
+    "injuries": []
+  },
+  "Paraguay": {
+    "ranking": 46,
+    "coach": "丹尼洛",
+    "keyPlayers": [
+      "加西亚",
+      "阿尔米龙",
+      "门迪埃塔"
+    ],
+    "marketValue": 0.72,
+    "recentForm": "已赛1场，1:4负美国，开局糟糕",
+    "strengths": [
+      "中场拼搏",
+      "防线意识强"
+    ],
+    "injuries": []
+  },
+  "Australia": {
+    "ranking": 38,
+    "coach": "格拉汉姆·阿诺德",
+    "keyPlayers": [
+      "克鲁兹",
+      "勒基",
+      "莱基"
+    ],
+    "marketValue": 0.95,
+    "recentForm": "待赛",
+    "strengths": [
+      "中场硬度足",
+      "防线职业精神"
+    ],
+    "injuries": []
+  },
+  "Turkey": {
+    "ranking": 39,
+    "coach": "维克托·帕帕多普洛斯",
+    "keyPlayers": [
+      "尤尔马兹",
+      "切蒂恩",
+      "阿克宁"
+    ],
+    "marketValue": 0.88,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线紧密",
+      "中场硬度足"
+    ],
+    "injuries": []
+  },
+  "Germany": {
+    "ranking": 5,
+    "coach": "朱利安·那格尔斯曼",
+    "keyPlayers": [
+      "哈弗茨",
+      "穆勒",
+      "京多安"
+    ],
+    "marketValue": 10.9,
+    "recentForm": "待赛",
+    "strengths": [
+      "组织能力强",
+      "中场硬度足"
+    ],
+    "injuries": [
+      "京多安（膝伤，状态恢复中）"
+    ]
+  },
+  "Curaçao": {
+    "ranking": 74,
+    "coach": "帕奇科",
+    "keyPlayers": [
+      "巴卡尔",
+      "巴克",
+      "布克"
+    ],
+    "marketValue": 0.25,
+    "recentForm": "待赛",
+    "strengths": [
+      "中场斗志强",
+      "防线意识强"
+    ],
+    "injuries": []
+  },
+  "Ivory Coast": {
+    "ranking": 47,
+    "coach": "让-卢克·瓦杜姆",
+    "keyPlayers": [
+      "佩莱",
+      "库利巴利",
+      "杰米"
+    ],
+    "marketValue": 0.68,
+    "recentForm": "待赛",
+    "strengths": [
+      "中场硬度足",
+      "防线稳健"
+    ],
+    "injuries": []
+  },
+  "Ecuador": {
+    "ranking": 44,
+    "coach": "费利克斯·桑切斯",
+    "keyPlayers": [
+      "巴隆卡",
+      "瓦伦西亚",
+      "门迪埃塔"
+    ],
+    "marketValue": 0.72,
+    "recentForm": "待赛",
+    "strengths": [
+      "中场拼搏",
+      "速度快"
+    ],
+    "injuries": []
+  },
+  "Netherlands": {
+    "ranking": 7,
+    "coach": "路易斯·范加尔",
+    "keyPlayers": [
+      "范迪克",
+      "德里赫特",
+      "西蒙尼斯"
+    ],
+    "marketValue": 9.1,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线铁血",
+      "中场拼搏精神"
+    ],
+    "injuries": [
+      "范迪克（膝伤，恢复良好）"
+    ]
+  },
+  "Japan": {
+    "ranking": 24,
+    "coach": "舒勒",
+    "keyPlayers": [
+      "香川真司",
+      "本田圭佑",
+      "内田篤人"
+    ],
+    "marketValue": 1.6,
+    "recentForm": "待赛",
+    "strengths": [
+      "技术细腻",
+      "防线职业精神"
+    ],
+    "injuries": []
+  },
+  "Sweden": {
+    "ranking": 25,
+    "coach": "约翰·卡霍",
+    "keyPlayers": [
+      "伊布拉希莫维奇",
+      "埃克达尔",
+      "福斯贝里"
+    ],
+    "marketValue": 1.4,
+    "recentForm": "待赛",
+    "strengths": [
+      "进攻威力大",
+      "中场硬度足"
+    ],
+    "injuries": []
+  },
+  "Tunisia": {
+    "ranking": 30,
+    "coach": "蒙塞夫",
+    "keyPlayers": [
+      "萨尔",
+      "布亚",
+      "哈米德"
+    ],
+    "marketValue": 0.58,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线团结",
+      "中场拼搏"
+    ],
+    "injuries": []
+  },
+  "Belgium": {
+    "ranking": 10,
+    "coach": "埃里克·阿尔法罗",
+    "keyPlayers": [
+      "维尔通亨",
+      "康帕尼",
+      "阿扎尔"
+    ],
+    "marketValue": 2.3,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线经验丰富",
+      "中场组织能力强"
+    ],
+    "injuries": []
+  },
+  "Egypt": {
+    "ranking": 45,
+    "coach": "卡洛斯·基罗斯",
+    "keyPlayers": [
+      "萨拉",
+      "图里亚",
+      "萨利"
+    ],
+    "marketValue": 0.65,
+    "recentForm": "待赛",
+    "strengths": [
+      "进攻威力大",
+      "防线职业精神"
+    ],
+    "injuries": []
+  },
+  "Iran": {
+    "ranking": 20,
+    "coach": "桑帕奥利",
+    "keyPlayers": [
+      "塔雷米",
+      "阿兹蒙",
+      "穆罕纳扎德"
+    ],
+    "marketValue": 0.88,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线紧密",
+      "中场硬度足"
+    ],
+    "injuries": []
+  },
+  "New Zealand": {
+    "ranking": 30,
+    "coach": "托马斯·罗内尔德",
+    "keyPlayers": [
+      "里沙尔利松",
+      "加迪亚",
+      "威尔顿"
+    ],
+    "marketValue": 0.58,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线意识强",
+      "中场拼搏"
+    ],
+    "injuries": []
+  },
+  "Spain": {
+    "ranking": 6,
+    "coach": "卡洛斯·德尔托罗",
+    "keyPlayers": [
+      "布斯克茨",
+      "哈维",
+      "阿尔巴"
+    ],
+    "marketValue": 9.5,
+    "recentForm": "待赛",
+    "strengths": [
+      "传中配合默契",
+      "控球能力超强"
+    ],
+    "injuries": []
+  },
+  "Cape Verde": {
+    "ranking": 72,
+    "coach": "费尔南多·桑蒂",
+    "keyPlayers": [
+      "路易斯",
+      "福斯蒂",
+      "瓦",
+      "门",
+      "塔瓦瑞斯"
+    ],
+    "marketValue": 0.22,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线意识强",
+      "拼搏精神强"
+    ],
+    "injuries": []
+  },
+  "Saudi Arabia": {
+    "ranking": 51,
+    "coach": "卡洛斯·基罗斯",
+    "keyPlayers": [
+      "萨拉赫",
+      "阿尔沙马",
+      "阿尔沙马里"
+    ],
+    "marketValue": 0.48,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线硬朗",
+      "中场拼搏"
+    ],
+    "injuries": []
+  },
+  "Uruguay": {
+    "ranking": 14,
+    "coach": "迭戈·阿尔贝斯",
+    "keyPlayers": [
+      "卡瓦尼",
+      "苏亚雷斯",
+      "努涅斯"
+    ],
+    "marketValue": 2.1,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线硬朗",
+      "进攻威力大"
+    ],
+    "injuries": []
+  },
+  "France": {
+    "ranking": 2,
+    "coach": "迪迪埃·德尚",
+    "keyPlayers": [
+      "姆巴佩",
+      "格里兹曼",
+      "坎特"
+    ],
+    "marketValue": 12.5,
+    "recentForm": "待赛",
+    "strengths": [
+      "速度快",
+      "前锋威力大"
+    ],
+    "injuries": [
+      "坎特（膝伤，状态待定）"
+    ]
+  },
+  "Senegal": {
+    "ranking": 18,
+    "coach": "阿利乌·西塞",
+    "keyPlayers": [
+      "马涅",
+      "萨尔",
+      "库利巴利"
+    ],
+    "marketValue": 0.92,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线硬朗",
+      "中场硬度足"
+    ],
+    "injuries": []
+  },
+  "Iraq": {
+    "ranking": 67,
+    "coach": "杰曼",
+    "keyPlayers": [
+      "阿里",
+      "米歇",
+      "马夫"
+    ],
+    "marketValue": 0.35,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线紧密",
+      "中场拼搏"
+    ],
+    "injuries": []
+  },
+  "Norway": {
+    "ranking": 48,
+    "coach": "斯坦·西蒙森",
+    "keyPlayers": [
+      "哈兰德",
+      "欧德加德",
+      "贝里古姆"
+    ],
+    "marketValue": 1.1,
+    "recentForm": "待赛",
+    "strengths": [
+      "进攻威力大",
+      "边锋速度快"
+    ],
+    "injuries": [
+      "哈兰德（膝伤，状态待定）"
+    ]
+  },
+  "Argentina": {
+    "ranking": 3,
+    "coach": "里奥内尔·斯卡洛尼",
+    "keyPlayers": [
+      "梅西",
+      "阿圭罗",
+      "马丁内斯"
+    ],
+    "marketValue": 11.8,
+    "recentForm": "待赛",
+    "strengths": [
+      "技术型中场",
+      "防线稳健"
+    ],
+    "injuries": []
+  },
+  "Algeria": {
+    "ranking": 40,
+    "coach": "贝尼亚内",
+    "keyPlayers": [
+      "塞莱斯",
+      "马希雷迪",
+      "贝尼亚尼亚"
+    ],
+    "marketValue": 0.58,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线职业精神",
+      "中场硬度足"
+    ],
+    "injuries": []
+  },
+  "Austria": {
+    "ranking": 25,
+    "coach": "劳夫",
+    "keyPlayers": [
+      "萨博尼奇",
+      "阿鲁",
+      "林德尔"
+    ],
+    "marketValue": 1.3,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线硬朗",
+      "中场组织能力强"
+    ],
+    "injuries": []
+  },
+  "Jordan": {
+    "ranking": 61,
+    "coach": "伊利亚·米林克维奇",
+    "keyPlayers": [
+      "霍邦",
+      "班卡德",
+      "沙达迪"
+    ],
+    "marketValue": 0.32,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线意识强",
+      "中场拼搏"
+    ],
+    "injuries": []
+  },
+  "Portugal": {
+    "ranking": 8,
+    "coach": "费尔南多·桑托斯",
+    "keyPlayers": [
+      "克里斯蒂亚诺",
+      "布鲁诺",
+      "贝尔纳多"
+    ],
+    "marketValue": 8.8,
+    "recentForm": "待赛",
+    "strengths": [
+      "进攻威力大",
+      "中场硬度足"
+    ],
+    "injuries": []
+  },
+  "DR Congo": {
+    "ranking": 79,
+    "coach": "塞萨",
+    "keyPlayers": [
+      "卢洛",
+      "莫莫",
+      "蒂"
+    ],
+    "marketValue": 0.38,
+    "recentForm": "待赛",
+    "strengths": [
+      "中场拼搏",
+      "速度快"
+    ],
+    "injuries": []
+  },
+  "Uzbekistan": {
+    "ranking": 52,
+    "coach": "克里莫夫",
+    "keyPlayers": [
+      "伊斯马都夫",
+      "阿尔瓦",
+      "沙马金"
+    ],
+    "marketValue": 0.45,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线硬朗",
+      "中场组织能力强"
+    ],
+    "injuries": []
+  },
+  "Colombia": {
+    "ranking": 17,
+    "coach": "费德里科·古铁雷斯",
+    "keyPlayers": [
+      "罗德里格斯",
+      "瓜伦",
+      "费尔南德斯"
+    ],
+    "marketValue": 1.4,
+    "recentForm": "待赛",
+    "strengths": [
+      "速度快",
+      "中场硬度足"
+    ],
+    "injuries": []
+  },
+  "England": {
+    "ranking": 4,
+    "coach": "加里·南盖特",
+    "keyPlayers": [
+      "凯恩",
+      "斯特林",
+      "芒克"
+    ],
+    "marketValue": 11.2,
+    "recentForm": "待赛",
+    "strengths": [
+      "进攻多点",
+      "边锋速度快"
+    ],
+    "injuries": []
+  },
+  "Croatia": {
+    "ranking": 12,
+    "coach": "茨洛·达利奇",
+    "keyPlayers": [
+      "莫德里奇",
+      "拉基蒂奇",
+      "佩里西奇"
+    ],
+    "marketValue": 1.8,
+    "recentForm": "待赛",
+    "strengths": [
+      "中场控制能力强",
+      "防线经验丰富"
+    ],
+    "injuries": []
+  },
+  "Ghana": {
+    "ranking": 61,
+    "coach": "塞泽苏",
+    "keyPlayers": [
+      "阿尤",
+      "库库",
+      "库阿尔"
+    ],
+    "marketValue": 0.42,
+    "recentForm": "待赛",
+    "strengths": [
+      "中场硬度足",
+      "速度快"
+    ],
+    "injuries": []
+  },
+  "Panama": {
+    "ranking": 80,
+    "coach": "厄内斯托·戈麦斯",
+    "keyPlayers": [
+      "桑多瓦尔",
+      "穆里略",
+      "瓦蒙德"
+    ],
+    "marketValue": 0.28,
+    "recentForm": "待赛",
+    "strengths": [
+      "防线拼搏",
+      "中场硬度足"
+    ],
+    "injuries": []
+  }
+}

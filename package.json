@@ -1,0 +1,19 @@
+{
+  "name": "jianghop-worldcup",
+  "version": "1.0.0",
+  "description": "2026 World Cup AI Prediction - 江 Hop 精酿酒馆",
+  "main": "api/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/server.js",
+    "dev": "DEEPSEEK_API_KEY=sk-dbbbdc3ab3e3479ba1fee945b559b2e5 node api/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

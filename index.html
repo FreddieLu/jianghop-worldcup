@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>⚽ 世界杯 AI 预测 · 江 Hop 精酿酒馆</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+
+    <!-- ========== 首页：赛程列表 ========== -->
+    <section id="page-home" class="page active">
+      <!-- 顶部 Hero -->
+      <div class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+          <div class="hero-badge">2026 FIFA WORLD CUP</div>
+          <h1>世界杯 AI 预测</h1>
+          <p class="hero-sub">看球就到江 Hop 🍺</p>
+        </div>
+      </div>
+
+      <!-- 日期筛选 -->
+      <div class="date-filter-wrapper">
+        <div class="date-filter" id="dateFilter">
+          <!-- JS 填充 -->
+        </div>
+      </div>
+
+      <!-- 赛程列表 -->
+      <div class="match-list" id="matchList">
+        <!-- JS 填充 -->
+      </div>
+
+      <!-- 底部 bar -->
+      <div class="bottom-bar">
+        <div class="bottom-bar-inner">
+          <span>🍺 看球就到</span>
+          <strong>江 Hop 精酿酒馆</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 广告插屏（5秒） ========== -->
+    <section id="page-ad" class="page">
+      <div class="ad-overlay">
+        <div class="ad-card">
+          <div class="ad-emoji">🍻⚽</div>
+          <h2 class="ad-title">看球就到江 Hop</h2>
+          <p class="ad-subtitle">精酿啤酒 · 大屏看球 · 激情世界杯</p>
+          <div class="ad-stores">
+            <div class="ad-store">
+              <div class="ad-store-name">📍 仁安店</div>
+              <div class="ad-store-addr">天宫殿街道新溉大道仁安 N+</div>
+            </div>
+            <div class="ad-store">
+              <div class="ad-store-name">📍 源著店</div>
+              <div class="ad-store-addr">龙山街道新南路 436 号天邻风景</div>
+            </div>
+            <div class="ad-store">
+              <div class="ad-store-name">📍 嘉陵店</div>
+              <div class="ad-store-addr">化龙桥街道永嘉路 43 号</div>
+            </div>
+          </div>
+          <div class="ad-phone">📞 18368094938</div>
+          <div class="ad-progress-wrap">
+            <div class="ad-progress" id="adProgress"></div>
+          </div>
+          <div class="ad-countdown">AI 正在分析中 · <span id="adCountdown">5</span>s</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 预测结果页 ========== -->
+    <section id="page-result" class="page">
+      <div class="result-wrap">
+        <button class="back-btn" id="backBtn">← 返回赛程</button>
+
+        <div class="result-card" id="resultCard">
+          <div class="result-header">
+            <div class="result-badge">AI PREDICTION</div>
+            <div class="result-group" id="resultGroup"></div>
+          </div>
+
+          <div class="result-teams">
+            <div class="result-team">
+              <div class="team-flag" id="flag1"></div>
+              <div class="team-name" id="teamName1"></div>
+            </div>
+            <div class="result-score">
+              <span id="score1" class="score-num">0</span>
+              <span class="score-sep">:</span>
+              <span id="score2" class="score-num">0</span>
+            </div>
+            <div class="result-team">
+              <div class="team-flag" id="flag2"></div>
+              <div class="team-name" id="teamName2"></div>
+            </div>
+          </div>
+
+          <div class="result-tag" id="resultTag"></div>
+
+          <div class="result-analysis" id="resultAnalysis">
+            <!-- AI 分析文本 -->
+          </div>
+
+          <div class="result-footer">
+            <div class="result-brand">🍺 看球就到 江 Hop 精酿酒馆</div>
+            <div class="result-powered">Powered by DeepSeek AI</div>
+          </div>
+        </div>
+
+        <button class="save-btn" id="saveBtn">📸 保存预测海报</button>
+        <p class="save-hint">长按保存图片，分享给好友一起猜</p>
+      </div>
+    </section>
+
+    <!-- ========== 海报预览（隐藏，用于截图） ========== -->
+    <div id="posterCanvas" class="poster-canvas">
+      <div class="poster-inner">
+        <div class="poster-top">
+          <div class="poster-event">⚽ 2026 世界杯 AI 预测</div>
+        </div>
+        <div class="poster-match">
+          <div class="poster-team">
+            <span class="poster-flag" id="posterFlag1"></span>
+            <span class="poster-team-name" id="posterTeam1"></span>
+          </div>
+          <div class="poster-score">
+            <span id="posterScore1">0</span>
+            <span>:</span>
+            <span id="posterScore2">0</span>
+          </div>
+          <div class="poster-team">
+            <span class="poster-flag" id="posterFlag2"></span>
+            <span class="poster-team-name" id="posterTeam2"></span>
+          </div>
+        </div>
+        <div class="poster-tagline" id="posterTagline">AI 说主队赢，你觉得呢？</div>
+        <div class="poster-divider"></div>
+        <div class="poster-brand">
+          <div class="poster-brand-name">🍺 看球就到 江 Hop 精酿酒馆</div>
+          <div class="poster-brand-addr">📍 仁安店 · 源著店 · 嘉陵店</div>
+          <div class="poster-brand-phone">📞 18368094938</div>
+        </div>
+        <div class="poster-qr">
+          <img class="poster-qr-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABh0lEQVRYhdWYMRKDMAwExVBQ8gSews+Cn8ZT/ARKigzKneRxJplJncOFAyyFZZ9OImY/x+YcZtOx+vC0xX2IJ5cAecQCh+d04KXn5LuBY4iT0b1uvI544q3ZvdyBYOePtWDzq9l9iI0nQ8LMqG5AUjt+zl5SNV+q+iPJbKSu13KN57Jvn3mqSdrAju/moesvm5MkjKdiOme4By4Z1YGotAmVskDF9OsrdJ05eYmTiR6Sfu3QTj8YZYLbg/E0v16Qrd7P588EdzMVEq7MCkhdg2uTDYqudvWc9K4QbYJNd7hH+PVUmxUWUydYPslu9Gs6NQLc1AlOAb/s6TDD+T60o0qgci/peZmtnq4tQB7sgd69cmXn4bF2aRJpyIoC53MqZGjVW5qMzMaogKyDmY2VJ6JMrMWDU2CvvPB7EL2yOEmjG9L5/N3hmzTJ3h+RwPk8iDXnEyD5pReu3GtJy1N90rtOPLOoKPcgTSztfxfTJqGdjIeR7NsVszbp2WjRj1aLLm8t2uTneAHZE3OtqWhzjAAAAABJRU5ErkJggg==" alt="QR Code" style="width: 100px; height: 100px; border-radius: 4px;">
+        </div>
+        <div class="poster-ai">Powered by DeepSeek AI</div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/matches.js"></script>
+  <script src="js/teams.json" type="application/json" id="teamsJsonScript"></script>
+  <script>
+    // Load teams data
+    fetch('js/teams.json')
+      .then(r => r.json())
+      .then(data => { window.teamsData = data; })
+      .catch(e => console.warn('Failed to load teams data:', e));
+  </script>
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

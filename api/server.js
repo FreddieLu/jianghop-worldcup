@@ -14,12 +14,22 @@ import cors from 'cors';
 import fetch from 'node-fetch';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import fs from 'fs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const rootDir = path.resolve(__dirname, '..');
 const app = express();
 
+// 调试：列出根目录文件
+console.log('📁 根目录:', rootDir);
+if (fs.existsSync(rootDir)) {
+  console.log('📄 文件列表:', fs.readdirSync(rootDir).join(', '));
+} else {
+  console.log('❌ 根目录不存在!');
+}
+
 // 托管静态文件（index.html, css, js, img）
-app.use(express.static(path.join(__dirname, '..')));
+app.use(express.static(rootDir));
 
 // CORS 配置
 app.use(cors({

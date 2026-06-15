@@ -12,8 +12,14 @@
 import express from 'express';
 import cors from 'cors';
 import fetch from 'node-fetch';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
+
+// 托管静态文件（index.html, css, js, img）
+app.use(express.static(path.join(__dirname, '..')));
 
 // CORS 配置
 app.use(cors({

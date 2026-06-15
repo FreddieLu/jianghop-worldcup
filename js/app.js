@@ -74,7 +74,8 @@ function isMatchPlayed(match) {
 }
 
 // ─── 赛程渲染 ───
-const dates = [...new Set(MATCH_DATA.matches.map(m => m.date))];
+const dates = [...new Set(MATCH_DATA.matches.map(m => m.date))]
+  .sort((a, b) => new Date(a) - new Date(b));
 let activeDate = null;
 
 function initDateFilter() {

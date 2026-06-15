@@ -9,13 +9,9 @@
  *   vercel deploy
  */
 
-const express = require('express');
-const cors = require('cors');
-
-let fetch;
-(async () => {
-  fetch = (await import('node-fetch')).default;
-})();
+import express from 'express';
+import cors from 'cors';
+import fetch from 'node-fetch';
 
 const app = express();
 
@@ -169,4 +165,4 @@ app.listen(PORT, () => {
   console.log(`📌 前端应设置 API_URL = 'http://localhost:${PORT}/api/predict'`);
 });
 
-module.exports = app;
+export default app;
